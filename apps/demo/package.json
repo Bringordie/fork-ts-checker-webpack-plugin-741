@@ -1,0 +1,20 @@
+{
+    "name": "@company/demo",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "start": "webpack server --config ./webpack.dev.config.js",
+        "lint": "eslint \"**/*.{ts,tsx,js,jsx}\"",
+        "prod_build": "npm run prod_clear && webpack --config ./webpack.prod.config.js",
+        "prod_clear": "rm -rf build_prod"
+    },
+    "dependencies": {
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0",
+        "react-intl": "^5.25.0",
+        "react-redux": "^8.0.0",
+        "react-router": "^6.3.0",
+        "react-router-dom": "^6.3.0"
+    },
+    "devDependencies": {}
+}

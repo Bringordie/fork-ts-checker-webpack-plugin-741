@@ -1,0 +1,5 @@
+{
+    "presets": [],
+    "sourceMaps": true,
+    "plugins": ["babel-plugin-styled-components"]
+}

@@ -1,0 +1,13 @@
+{
+    "extends": "../../tsconfig.build.json",
+    "compilerOptions": {
+        "rootDir": "./",
+        "outDir": "./dist",
+        "composite": true,
+        "paths": {
+            "@mui/styled-engine": ["./node_modules/@mui/styled-engine-sc"]
+        }
+    },
+    "references": [{}],
+    "include": ["src/**/*", "./index.d.ts", "./index.ts"]
+}

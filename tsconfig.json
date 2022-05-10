@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "baseUrl": ".",
+        "paths": {
+            "@company/ui/*": ["packages/ui/src/*"],
+            "@company/demo/*": ["apps/demo/src/*"]
+        }
+    }
+}

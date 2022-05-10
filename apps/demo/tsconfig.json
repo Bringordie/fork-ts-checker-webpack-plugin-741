@@ -1,0 +1,10 @@
+{
+    "extends": "../../tsconfig.build.json",
+    "compilerOptions": {
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "composite": true
+    },
+    "references": [{ "path": "../../packages/ui" }],
+    "include": ["src/**/*", "index.d.ts"]
+}

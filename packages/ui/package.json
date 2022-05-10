@@ -1,0 +1,45 @@
+{
+    "name": "@company/ui",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "lint": "eslint \"**/*.{ts,tsx,js,jsx}\""
+    },
+    "dependencies": {
+        "@emotion/react": "^11.8.2",
+        "@emotion/styled": "^11.8.1",
+        "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest",
+        "formik": "^2.2.9",
+        "lodash.get": "^4.4.2",
+        "react": "^18.0.0",
+        "react-bootstrap-icons": "^1.8.1",
+        "react-dom": "^18.0.0",
+        "yup": "^0.32.11",
+        "papaparse": "5.3.2"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.15.5",
+        "@babel/preset-react": "7.14.5",
+        "@babel/preset-typescript": "7.15.0",
+        "@mui/lab": "^5.0.0-alpha.66",
+        "@mui/material": "^5.1.1",
+        "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest",
+        "@types/react": "17.0.24",
+        "@types/react-dom": "17.0.9",
+        "@types/styled-components": "^5.1.14",
+        "@typescript-eslint/eslint-plugin": "^5.6.0",
+        "@typescript-eslint/parser": "^5.6.0",
+        "@types/papaparse": "^5.3.2",
+        "babel-loader": "^8.2.2",
+        "css-loader": "^6.5.1",
+        "date-fns": "^2.28.0",
+        "eslint": "^8.4.1",
+        "eslint-plugin-jest": "^25.3.0",
+        "eslint-plugin-react": "^7.27.1",
+        "eslint-plugin-react-hooks": "^4.3.0",
+        "style-loader": "^3.3.1",
+        "styled-components": "^5.3.1",
+        "webpack": "^5.54.0",
+        "webpack-cli": "^4.8.0"
+    }
+}
